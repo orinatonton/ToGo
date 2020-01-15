@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostBikeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/display_image"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/images"
+                android:scaleType="centerCrop"
+                android:visibility="visible"
+                android:foreground="@color/overlay"/>
+
+            <TextView
+                android:id="@+id/pick_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:padding="16dp"
+                android:text="Click To Select Motorbike Picture"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/login_header_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Motorbike Details"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/bike_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter Your Motorbike Model e.g Boxer"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/engine_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter Engine Size (e.g 100cc)"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/hire_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:digits="0123456789+"
+            android:hint="Enter Hiring Rate (e.g Ksh 100 per day)"
+            android:inputType="phone" />
+
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/colorAccents"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "559989568683",
+    "firebase_url": "https://togo-e8ef9.firebaseio.com",
+    "project_id": "togo-e8ef9",
+    "storage_bucket": "togo-e8ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559989568683:android:7c550c2c4a370117e3f3ee",
+        "android_client_info": {
+          "package_name": "com.togo.togo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559989568683-8ll11gpen0gj17t95fuu6mempicjela7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.togo.togo",
+            "certificate_hash": "b8ec7af896bb7e16cb30eea748181ce496433e4d"
+          }
+        },
+        {
+          "client_id": "559989568683-ct1p2b05m93dh704083qnk2o2blj1rme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC709T7NtHizKOPsd_ByMRZdTxGxzt7x_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559989568683-ct1p2b05m93dh704083qnk2o2blj1rme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
